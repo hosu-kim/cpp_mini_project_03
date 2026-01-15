@@ -3,9 +3,10 @@
 
 #include <string>
 #include <iostream>
+#include "ClapTrap.hpp"
 
 class ClapTrap {
-	private:
+	protected:
 		std::string name; // TASK 1-4
 		int hit_points; // represents the health of the ClapTrap.
 		int energy_points;

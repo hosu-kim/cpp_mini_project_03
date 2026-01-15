@@ -19,7 +19,7 @@ ClapTrap::ClapTrap(const ClapTrap& other) {
 
 // vvv copy assignment operator
 ClapTrap& ClapTrap::operator=(const ClapTrap& other) {
-	std::cout << "Copy assignement operator called" << std::endl;
+	std::cout << "Copy assignment operator called" << std::endl;
 	if (this != &other) {
 		this->name = other.name;
 		this->hit_points = other.hit_points;
@@ -46,7 +46,7 @@ void ClapTrap::takeDamage(unsigned int amount) {
 
 void ClapTrap::beRepaired(unsigned int amount) {
 	if (energy_points > 0 && hit_points > 0) {
-		std::cout << "ClapTrap " << name << " is repaired for " << amount << " hit points";
+		std::cout << "ClapTrap " << name << " is repaired for " << amount << " hit points" << std::endl;
 		hit_points += amount;
 		energy_points--;
 	}

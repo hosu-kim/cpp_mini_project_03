@@ -12,7 +12,7 @@ int main() {
 	std::cout << "\n=== takeDamage() test ===" << std::endl;
 	b.takeDamage(3);
 
-	std::cout << "\n=== beRepaired() test" << std::endl;
+	std::cout << "\n=== beRepaired() test ===" << std::endl;
 	b.beRepaired(2);
 
 	std::cout << "\n=== destructor test ===" << std::endl;
