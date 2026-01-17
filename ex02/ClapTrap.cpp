@@ -32,6 +32,7 @@ ClapTrap& ClapTrap::operator=(const ClapTrap& other) {
 ClapTrap::~ClapTrap() {
 	std::cout << "ClapTrap destructor called" << std::endl;
 }
+
 // ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 void ClapTrap::attack(const std::string& target) {
 	if (energy_points > 0 && hit_points > 0) {
